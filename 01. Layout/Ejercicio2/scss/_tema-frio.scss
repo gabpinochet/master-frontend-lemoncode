@@ -1,0 +1,37 @@
+/* FUENTES */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+/* VARIABLES */
+$color-base: rgb(0,0,255);
+
+.box {
+
+    &.base {
+        background-color: $color-base;
+    }
+
+    &.important {
+        background-color: darken($color-base , 30%);
+    }
+
+    &.warning {
+        background-color: lighten($color-base , 30%);
+    }
+
+    &.shadow {
+        box-shadow: 10px 10px 6px 0 rgba(0,0,0,0.7);
+        border-radius: 10px;
+    }
+}
+
+.text {
+
+    &.principal {
+        font-family: 'Lora';
+    }
+
+    &.secondary {
+        font-family: 'Merriweather';
+    }
+}

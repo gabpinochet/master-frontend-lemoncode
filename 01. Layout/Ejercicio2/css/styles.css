@@ -1,0 +1,52 @@
+/* FUENTES */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap");
+/* VARIABLES */
+.box.base {
+  background-color: rgb(255, 0, 0);
+}
+.box.important {
+  background-color: #660000;
+}
+.box.warning {
+  background-color: #ff9999;
+}
+.box.shadow {
+  box-shadow: -10px 10px 6px 0 rgba(0, 0, 0, 0.6);
+}
+
+.text.principal {
+  font-family: "Open Sans";
+}
+.text.secondary {
+  font-family: "Ubuntu";
+}
+
+html {
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.box {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.text {
+  font-family: "Comic Neue";
+  text-align: center;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,27 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: teal;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.box {
+  background-color: teal;
+  padding: 30px 50px;
+  color: white;
+  text-align: center;
+}
+.box:hover {
+  background-color: #006767;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  nav {
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

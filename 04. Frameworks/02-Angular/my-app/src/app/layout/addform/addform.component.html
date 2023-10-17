@@ -1,0 +1,16 @@
+<div>
+    <form #addForm="ngForm" (submit)="add()">
+        <mat-form-field>
+            <mat-label>ID</mat-label>
+            <input matInput name="id" [(ngModel)]="newMember.id" required #id="ngModel"/>
+            <div *ngIf="id.dirty&&id.invalid">El id es obligatorio</div>
+        </mat-form-field>
+        <mat-form-field>
+            <mat-label>Name</mat-label>
+            <input matInput name="name" [(ngModel)]="newMember.login" required minlength="6" #name="ngModel"/>
+            <div *ngIf="name.dirty&&name.invalid">El name es obligatorio</div>
+        </mat-form-field>
+        
+        <button type="submit" [disabled]="addForm.invalid" >Añadir</button>
+    </form>
+</div>

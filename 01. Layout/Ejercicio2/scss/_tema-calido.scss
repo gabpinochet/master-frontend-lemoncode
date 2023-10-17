@@ -1,0 +1,35 @@
+/* FUENTES */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+/* VARIABLES */
+$color-base: rgb(255,0,0);
+
+.box {
+
+    &.base {
+        background-color: $color-base;
+    }
+
+    &.important {
+        background-color: darken($color-base , 30%);
+    }
+
+    &.warning {
+        background-color: lighten($color-base , 30%);
+    }
+
+    &.shadow {
+        box-shadow: -10px 10px 6px 0 rgba(0,0,0,0.6);
+    }
+}
+
+.text {
+
+    &.principal {
+        font-family: 'Open Sans';
+    }
+
+    &.secondary {
+        font-family: 'Ubuntu';
+    }
+}

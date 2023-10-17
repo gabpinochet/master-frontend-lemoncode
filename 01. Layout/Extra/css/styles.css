@@ -1,0 +1,139 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #dedede;
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+}
+
+header {
+  background-color: white;
+}
+header .toolbar {
+  padding: 10px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .page-title {
+  padding: 20px 10px;
+  background-color: #b8d72e;
+  color: white;
+  font-size: 24px;
+  font-family: Verdana, sans-serif;
+}
+
+.page-container {
+  display: flex;
+  align-items: start;
+}
+.page-container nav {
+  position: sticky;
+  top: 0;
+  min-height: 110vh;
+  width: 200px;
+  flex-shrink: 0;
+  background-color: darkolivegreen;
+}
+.page-container nav .menu-container .menu-title {
+  padding: 10px;
+  color: beige;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.page-container nav .menu-container ul {
+  margin: 0;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+.page-container nav .menu-container ul li {
+  padding: 10px;
+  background-color: beige;
+}
+.page-container nav .menu-container ul li::marker {
+  font-size: 0;
+}
+.page-container main {
+  padding: 15px 25px;
+}
+.page-container main .list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 15px;
+}
+.page-container main .list .card.item {
+  width: 220px;
+  height: 160px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+.page-container main .list .card.item img {
+  border-radius: 50%;
+}
+.page-container main .list .card.item .member-name {
+  text-align: center;
+}
+
+footer {
+  padding: 10px 15px;
+  background-color: beige;
+  color: black;
+  font-size: 14px;
+  font-family: Verdana, sans-serif;
+}
+
+/* RESPONSIVE MOBILE*/
+@media only screen and (max-width: 768px) {
+  header .toolbar, .page-container nav .menu-title {
+    display: none;
+  }
+  .page-container {
+    flex-direction: column;
+  }
+  .page-container nav {
+    width: 100%;
+    min-height: 50px;
+  }
+  .page-container nav .menu-container {
+    display: flex;
+  }
+  .page-container nav .menu-container ul {
+    width: 100%;
+    padding: 10px;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 10px;
+  }
+  .page-container nav .menu-container ul li {
+    flex-grow: 1;
+    text-align: center;
+  }
+  .page-container main .list {
+    gap: 5px;
+  }
+  .page-container main .list .card.item {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: start;
+    gap: 15px;
+  }
+  .page-container main .list .card.item .member-name {
+    text-align: left;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

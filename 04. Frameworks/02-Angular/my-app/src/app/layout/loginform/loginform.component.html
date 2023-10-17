@@ -1,0 +1,14 @@
+<div>
+    <form #loginForm="ngForm" (submit)="auth()">
+        <mat-form-field>
+            <mat-label>Name</mat-label>
+            <input matInput name="username" [(ngModel)]="sharedService.loginMember.username" required />
+        </mat-form-field>
+        <mat-form-field>
+            <mat-label>Password</mat-label>
+            <input matInput name="password" [(ngModel)]="sharedService.loginMember.password" required />
+        </mat-form-field>
+        
+        <button type="submit" [disabled]="loginForm.invalid">Login</button>
+    </form>
+</div>

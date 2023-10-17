@@ -1,0 +1,21 @@
+$background: lightgrey;
+$color: black;
+$size: 3rem;
+
+.container {
+    margin: 20px;
+    padding: 50px;
+    background-color: $background;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.title {
+    color: $color;
+    font-size: $size;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

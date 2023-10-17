@@ -1,0 +1,48 @@
+/* VARIABLES */
+.container-1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.box {
+  display: flex;
+  height: 100px;
+  min-width: 100px;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.box.base-color {
+  background-color: rgb(0, 0, 255);
+}
+.box.darken-1 {
+  background-color: #0000cc;
+}
+.box.darken-2 {
+  background-color: #000099;
+}
+.box.darken-3 {
+  background-color: #000066;
+}
+.box.darken-4 {
+  background-color: #000033;
+}
+.box.lighten-1 {
+  background-color: #3333ff;
+}
+.box.lighten-2 {
+  background-color: #6666ff;
+}
+.box.lighten-3 {
+  background-color: #9999ff;
+}
+.box.lighten-4 {
+  background-color: #ccccff;
+}
+
+.color-box-text {
+  color: white;
+}
+
+/*# sourceMappingURL=styles.css.map */
