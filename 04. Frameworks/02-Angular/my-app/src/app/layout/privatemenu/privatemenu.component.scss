@@ -1,0 +1,30 @@
+@mixin flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.private-container {
+    @include flex-container;
+    gap: 100px;
+    .user-container {
+        @include flex-container;
+        gap: 20px;
+    }
+}
+
+
+ul {
+    display: flex;
+    flex-grow: 1;
+    gap: 20px;
+}
+
+li {
+    display: flex;
+}
+
+p {
+    margin: 0;
+}

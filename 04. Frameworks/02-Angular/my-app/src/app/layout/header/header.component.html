@@ -1,0 +1,8 @@
+<header>
+    <a routerLink="/"><img src="../../../assets/media/banana-logo.png" width="120" alt="Logo Empresa Banana Run"/></a>
+
+    <h2>Banana Run</h2>
+    <app-publicmenu *ngIf="!this.sharedService.loginMember.logged"></app-publicmenu>
+
+    <app-privatemenu *ngIf="this.sharedService.loginMember.logged"></app-privatemenu>
+</header>
