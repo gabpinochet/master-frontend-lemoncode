@@ -1,25 +1,14 @@
 import { CharacterEntityApi } from './character-collection.api-model';
+import Axios from 'axios';
 
 const url = '/api/characters'
 
 export const getCharacterCollection = async (): Promise<CharacterEntityApi[]> => {
-  const response = await fetch(url);
-  if (response.ok) {
-    const data = await response.json();
-    return data;
-  } else {
-      throw Error(response.statusText);
-  }
-    
+  const { data } = await Axios.get<CharacterEntityApi[]>(url);
+  return data;
 };
 
 export const deleteCharacter = async (id: string): Promise<boolean> => {
-  const response = await fetch(`${url}/${id}`, {
-    method: 'DELETE',
-  });
-  if (response.ok) {
-    return true;
-  } else {
-      throw Error(response.statusText);
-  }
+  await Axios.delete(`${url}/${id}`);
+  return true;
 };
