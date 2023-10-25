@@ -2,4 +2,5 @@ export interface CharacterEntityVm {
   id: string;
   picture: string;
   name: string;
+  bestSentence: string;
 }

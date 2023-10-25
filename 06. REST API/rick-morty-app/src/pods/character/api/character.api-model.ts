@@ -4,6 +4,7 @@ export interface Character {
   status: string;
   species: string;
   type: string;
+  bestSentence: string;
   gender: string;
   origin: {
     name: string,

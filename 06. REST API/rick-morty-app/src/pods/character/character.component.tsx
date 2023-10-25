@@ -29,15 +29,7 @@ export const CharacterComponent: React.FunctionComponent<Props> = (props) => {
       {() => (
         <Form className={classes.root}>
           <TextFieldComponent name="name" label="Name" />
-          <TextFieldComponent name="address" label="Address" />
-          <RatingComponent name="rating" max={5} />
-          <SelectComponent name="city" label="City" items={[{id: '', name: '',}]}/>
-          <TextFieldComponent
-            name="description"
-            label="Description"
-            multiline={true}
-            rows={3}
-          />
+          <TextFieldComponent name="bestSentence" label="Quote" />
           <Button type="submit" variant="contained" color="primary">
             Save
           </Button>

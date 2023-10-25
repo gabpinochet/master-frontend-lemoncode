@@ -3,6 +3,7 @@ export interface CharacterEntityApi {
   name: string;
   status: string;
   species: string;
+  bestSentence: string;
   type: string;
   gender: string;
   origin: {

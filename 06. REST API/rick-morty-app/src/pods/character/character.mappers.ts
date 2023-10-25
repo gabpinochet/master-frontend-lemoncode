@@ -7,6 +7,7 @@ export const mapCharacterFromApiToVm = (
   ...character,
   id: character.id,
   name: character.name,
+  bestSentence: character.bestSentence,
 });
 
 export const mapCharacterFromVmToApi = (character: viewModel.Character): apiModel.Character =>
@@ -14,4 +15,5 @@ export const mapCharacterFromVmToApi = (character: viewModel.Character): apiMode
     ...character,
     id: character.id,
     name: character.name,
+    bestSentence: character.bestSentence,
   } as unknown) as apiModel.Character);

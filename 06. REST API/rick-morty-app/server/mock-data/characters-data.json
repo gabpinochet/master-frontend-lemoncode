@@ -5,6 +5,7 @@
       "name": "Rick Sanchez",
       "status": "Alive",
       "species": "Human",
+      "bestSentence": "I'm Pickle Rick!",
       "type": "",
       "gender": "Male",
       "origin": {
@@ -77,6 +78,7 @@
       "name": "Morty Smith",
       "status": "Alive",
       "species": "Human",
+      "bestSentence": "Get It All Together And Put It In A Backpack...",
       "type": "",
       "gender": "Male",
       "origin": {
@@ -149,6 +151,7 @@
       "name": "Summer Smith",
       "status": "Alive",
       "species": "Human",
+      "bestSentence": "",
       "type": "",
       "gender": "Female",
       "origin": {
@@ -212,6 +215,7 @@
       "name": "Beth Smith",
       "status": "Alive",
       "species": "Human",
+      "bestSentence": "",
       "type": "",
       "gender": "Female",
       "origin": {
@@ -275,6 +279,7 @@
       "name": "Jerry Smith",
       "status": "Alive",
       "species": "Human",
+      "bestSentence": "",
       "type": "",
       "gender": "Male",
       "origin": {
@@ -335,6 +340,7 @@
       "name": "Abadango Cluster Princess",
       "status": "Alive",
       "species": "Alien",
+      "bestSentence": "",
       "type": "",
       "gender": "Female",
       "origin": {
@@ -357,6 +363,7 @@
       "name": "Abradolf Lincler",
       "status": "unknown",
       "species": "Human",
+      "bestSentence": "",
       "type": "Genetic experiment",
       "gender": "Male",
       "origin": {
@@ -380,6 +387,7 @@
       "name": "Adjudicator Rick",
       "status": "Dead",
       "species": "Human",
+      "bestSentence": "",
       "type": "",
       "gender": "Male",
       "origin": {
@@ -402,6 +410,7 @@
       "name": "Agency Director",
       "status": "Dead",
       "species": "Human",
+      "bestSentence": "",
       "type": "",
       "gender": "Male",
       "origin": {
@@ -424,6 +433,7 @@
       "name": "Alan Rails",
       "status": "Dead",
       "species": "Human",
+      "bestSentence": "",
       "type": "Superhuman (Ghost trains summoner)",
       "gender": "Male",
       "origin": {
@@ -446,6 +456,7 @@
       "name": "Albert Einstein",
       "status": "Dead",
       "species": "Human",
+      "bestSentence": "",
       "type": "",
       "gender": "Male",
       "origin": {
@@ -468,6 +479,7 @@
       "name": "Alexander",
       "status": "Dead",
       "species": "Human",
+      "bestSentence": "",
       "type": "",
       "gender": "Male",
       "origin": {
@@ -490,6 +502,7 @@
       "name": "Alien Googah",
       "status": "unknown",
       "species": "Alien",
+      "bestSentence": "",
       "type": "",
       "gender": "unknown",
       "origin": {
@@ -512,6 +525,7 @@
       "name": "Alien Morty",
       "status": "unknown",
       "species": "Alien",
+      "bestSentence": "",
       "type": "",
       "gender": "Male",
       "origin": {
@@ -534,6 +548,7 @@
       "name": "Alien Rick",
       "status": "unknown",
       "species": "Alien",
+      "bestSentence": "",
       "type": "",
       "gender": "Male",
       "origin": {
@@ -556,6 +571,7 @@
       "name": "Amish Cyborg",
       "status": "Dead",
       "species": "Alien",
+      "bestSentence": "",
       "type": "Parasite",
       "gender": "Male",
       "origin": {
@@ -578,6 +594,7 @@
       "name": "Annie",
       "status": "Alive",
       "species": "Human",
+      "bestSentence": "",
       "type": "",
       "gender": "Female",
       "origin": {
@@ -600,6 +617,7 @@
       "name": "Antenna Morty",
       "status": "Alive",
       "species": "Human",
+      "bestSentence": "",
       "type": "Human with antennae",
       "gender": "Male",
       "origin": {
@@ -623,6 +641,7 @@
       "name": "Antenna Rick",
       "status": "unknown",
       "species": "Human",
+      "bestSentence": "",
       "type": "Human with antennae",
       "gender": "Male",
       "origin": {
@@ -639,6 +658,29 @@
       ],
       "url": "https://rickandmortyapi.com/api/character/19",
       "created": "2017-11-04T22:28:13.756Z"
+    },
+    {
+      "id": 20,
+      "name": "Ants in my Eyes Johnson",
+      "status": "unknown",
+      "species": "Human",
+      "bestSentence": "",
+      "type": "Human with ants in his eyes",
+      "gender": "Male",
+      "origin": {
+        "name": "unknown",
+        "url": ""
+      },
+      "location": {
+        "name": "Interdimensional Cable",
+        "url": "https://rickandmortyapi.com/api/location/6"
+      },
+      "image": "https://rickandmortyapi.com/api/character/avatar/20.jpeg",
+      "episode": [
+        "https://rickandmortyapi.com/api/episode/8"
+      ],
+      "url": "https://rickandmortyapi.com/api/character/20",
+      "created": "2017-11-04T22:34:53.659Z"
     }
   ]
 }
